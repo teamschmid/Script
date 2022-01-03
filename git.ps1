@@ -6,7 +6,7 @@ git clone https://github.com/teamschmid/Script.git
 
 
 #Datei hochladen
-
+#Anleitung: https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
 #Repos abgleichen
 git pull origin main
 #Komplett alles oder Dateiname angeben
