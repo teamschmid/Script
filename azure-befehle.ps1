@@ -1,3 +1,3 @@
 Get-AzEnvironment #List environments
 
-Get-AzLocation | ft #get regions in current environment
+Get-AzLocation | Format-Table #get regions in current environment
