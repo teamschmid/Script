@@ -1,24 +1,19 @@
-…or create a new repository on the command line
-git init
-git add git.ps1
-git commit -m "first commit"
-git branch -M main
-git commit -m https://github.com/teamschmid/Script.git
-
-git remote add origin https://github.com/teamschmid/Script.git
-git push -u origin main
-
-
-…or push an existing repository from the command line
- git remote add origin https://github.com/teamschmid/Script.git
-git branch -M main
-git push -u origin main
-
-
-
 
 git --version
 
 #im git-Pfad direkt unter Hauptverzeichnis ausführen, um Inhalte lokal zu speichern
 git clone https://github.com/teamschmid/Script.git
 
+
+#Datei hochladen
+
+#Repos abgleichen
+git pull origin main
+#Komplett alles oder Dateiname angeben
+git add .
+#Information für Änderung angeben
+git commit -m "Zweite Version"
+#Hochladen beim ersten Mal
+git push --set-upstream origin main
+#Hochladen
+git push
