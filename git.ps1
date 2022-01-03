@@ -17,3 +17,6 @@ git commit -m "Zweite Version"
 git push --set-upstream origin main
 #Hochladen
 git push
+
+#Änderungen herunterladen
+git pull
